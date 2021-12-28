@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background: rgb(73, 43, 200);
+  background: linear-gradient(
+    318deg,
+    rgba(73, 43, 200, 1) 37%,
+    rgba(52, 138, 201, 1) 66%,
+    rgba(35, 181, 177, 1) 94%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+h1,
+h2 {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 100%
+}
+
+.link {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 12px;
+  box-shadow: 0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  0 0 .1rem #ffffff,
+  0 0 0.4rem #6c7aff;
+  margin:0 auto;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 2px 20px;
+}
+
+.link p {
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.link img {
+    margin-right: auto;
+}

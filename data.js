@@ -18,7 +18,7 @@ const data = [
     alt: "GitHub icon",
   },
   {
-    name: "Learn to Build a Web Scraper",
+    name: "Build a Web Scraper",
     link: "https://sarahdepalo.hashnode.dev/creating-a-basic-web-scraper-with-python",
     icon: "./icons/hashnode.svg",
     alt: "Hashnode blogging site icon",

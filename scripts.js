@@ -3,9 +3,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   const renderLinks = () => {
     const links = data.map((link) =>
-        ` <a href="${link.link}">
+        ` <a href="${link.link}" class="animate pop">
             <div class="link">
-            <img src="${link.icon}" alt="${link.alt}" />
+            <img src="${link.icon}" alt="${link.alt}" class="icon"/>
             <p>${link.name}</p>
             </div>
         </a>`
@@ -13,6 +13,5 @@ document.addEventListener("DOMContentLoaded", () => {
     const linkContainer = document.querySelector('#linkContainer');
     linkContainer.innerHTML = links.join('');
   };
-  renderLinks()
-  console.log(data);
+  renderLinks();
 });

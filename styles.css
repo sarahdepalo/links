@@ -86,7 +86,8 @@ a {
 }
 
 .link:hover img {
-    filter: brightness(0) saturate(100%) invert(23%) sepia(97%) saturate(6317%) hue-rotate(252deg) brightness(80%) contrast(96%);
+  filter: brightness(0) saturate(100%) invert(23%) sepia(97%) saturate(6317%)
+    hue-rotate(252deg) brightness(80%) contrast(96%);
 }
 
 .link p {
@@ -113,6 +114,27 @@ footer img:hover {
 }
 
 /* ANIMATION */
+
+.pulse {
+  animation: ease-in-out;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-name: pulse;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .animate {
   animation-duration: 0.5s;
   animation-name: animate-fade;

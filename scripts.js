@@ -14,4 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
     linkContainer.innerHTML = links.join('');
   };
   renderLinks();
+
+  document.querySelectorAll(".link").forEach((link) => {
+    link.addEventListener("mouseenter", () => {
+      link.querySelector(".icon").classList.add("pulse")
+    });
+    link.addEventListener("mouseout", () => {
+      link.querySelector(".icon").classList.remove("pulse");
+    })
+  })
 });

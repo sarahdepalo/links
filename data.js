@@ -30,6 +30,12 @@ const data = [
     alt: "Hashnode Blogging site icon",
   },
   {
+    name: "Email Development Tips & Tricks",
+    link: "https://sarahdepalo.hashnode.dev/email-development-tips-and-tricks",
+    icon: "./icons/hashnode.svg",
+    alt: "Hashnode Blogging site icon",
+  },
+  {
     name: "Buy Me a Coffee",
     link: "https://www.buymeacoffee.com/sarahcodes",
     icon: "./icons/coffee.svg",

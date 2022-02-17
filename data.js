@@ -30,7 +30,7 @@ const data = [
     alt: "Hashnode Blogging site icon",
   },
   {
-    name: "Email Development Tips & Tricks",
+    name: "Email Dev Tips & Tricks",
     link: "https://sarahdepalo.hashnode.dev/email-development-tips-and-tricks",
     icon: "./icons/hashnode.svg",
     alt: "Hashnode Blogging site icon",
